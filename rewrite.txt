@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^santaana\.cafe[OR]
+RewriteCond %{HTTP_HOST} ^www\.santaana\.cafe
+RewriteRule .* https://www.santaana.cafe%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTPS} =on
+RewriteCond %{HTTP_HOST} ^santaana\.cafe
+RewriteRule .* https://www.santaana.cafe%{REQUEST_URI} [R=301,L]
