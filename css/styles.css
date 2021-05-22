@@ -1,74 +1,72 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
+  background-color: black;
 }
 
-/* #menu{
-    background: #e95c0c;
-} */
-
-.navbar-brand{
-    font-family:Lalezar, monospace;
-    font-size:36px;
-    /* color: #e95c0c !important; */
+nav {
+  font-family: Helvetica;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+nav .navbar-header {
+  text-align: center;
+}
+nav .navbar-brand {
+  font-size: min(max(1rem, 4vw), 36px);
+}
+nav .navbar-toggler {
+  float: none;
+  margin-right: 0;
+}
+nav .navbar-brand:hover {
+  color: blue !important;
+}
+nav .collapse a {
+  font-family: Helvetica;
+  color: black;
+  justify-content: end;
+  display: grid;
+  align-items: center;
 }
 
-nav{
-    font-family: Helvetica;
-    text-decoration-color: black;
+#menu {
+  padding: 1%;
+  display: inline-block;
+  position: relative;
 }
 
-.nav-link:hover{
-    color: blue;
+#menu1 {
+  padding-top: 10px;
 }
 
-nav .collapse a{
-    font-family: Helvetica;
-    color: black;
-    justify-content: end;
-    display: grid;
-    justify-content: end;
-    align-items: center;
-
-}
-
-
-#menu{
-    padding: 1%;
-    display: inline-block;
-    position: relative;
-/*     background-color: orange; */
-}
-
-#menu1{
-    padding-top: 10px;
-}
-
-#menu2{
-    padding-top: 10px;
-    padding-bottom: 10px
+#menu2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  /* Add this to V2 to fix menu resizing*/
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .footer {
-    background-color: #F8F9FA;
-    text-decoration-color: black;
-    text-align: center;
-    display: inline-block;
+  background-color: rgba(22, 20, 20, 0.658);
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  text-align: center;
+  display: inline-block;
 }
 
-.LocationText{
-   /*  font-family:Lalezar, monospace; */
-    font-size:36px;
-    text-decoration-color: black;
-}
-
+.LocationText {
+  /*  font-family:Lalezar, monospace; */
+  font-size: 36px;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+  }
+
+
+
+nav{
+  font-family: Helvetica;
+  text-decoration-color: black;
+
+  .navbar-header{
+    text-align:center;
+  }
+
+.navbar-brand{
+  font-size: min(max(1rem, 4vw), 36px);
+}
+
+  .navbar-toggler {
+    float: none;
+    margin-right:0;
+}
+
+  .navbar-brand:hover {
+        color: blue !important;
+      }
+
+  .collapse a{
+    font-family: Helvetica;
+    color: black;
+    justify-content: end;
+    display: grid;
+    align-items: center;
+      }
+  }
+
+$carousel-control-transition: opacity 1s ease;
+$carousel-transition-duration: 1s;
+
+#menu{
+    padding: 1%;
+    display: inline-block;
+    position: relative;
+}
+
+#menu1{
+    padding-top: 10px;
+}
+
+#menu2{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+img { /* Add this to V2 to fix menu resizing*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: rgba(22, 20, 20, 0.658);
+    text-decoration-color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.LocationText{
+   /*  font-family:Lalezar, monospace; */
+    font-size:36px;
+    text-decoration-color: black;
+}
+
